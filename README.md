@@ -1,2 +1,2 @@
-# YASP-DIO
 
+YASP - Yet Another SOLID Presentation
