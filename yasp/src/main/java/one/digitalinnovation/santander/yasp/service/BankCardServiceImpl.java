@@ -2,6 +2,7 @@ package one.digitalinnovation.santander.yasp.service;
 
 import one.digitalinnovation.santander.yasp.common.dto.entity.TaxableCard;
 import one.digitalinnovation.santander.yasp.common.dto.exception.TaxableCardNotFoundException;
+import one.digitalinnovation.santander.yasp.repository.BankCardRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
