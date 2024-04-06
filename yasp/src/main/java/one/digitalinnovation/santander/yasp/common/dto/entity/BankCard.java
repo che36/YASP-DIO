@@ -17,6 +17,13 @@ public abstract class BankCard {
     protected final boolean taxFreeForRelationShip;
     protected final Set<BankCardEntry> entries = new HashSet<>();
 
+    public BankCard(Long id, BankCardTypeEnum bankCardTypeEnum, double monthlyTax, boolean taxFreeForRelationShip, Long id1, BankCardTypeEnum type, double monthlyTax1, boolean taxFreeForRelationShip1) {
+        this.id = id1;
+        this.type = type;
+        this.monthlyTax = monthlyTax1;
+        this.taxFreeForRelationShip = taxFreeForRelationShip1;
+    }
+
     public Long getId() {
         return id;
     }
